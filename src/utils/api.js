@@ -146,6 +146,7 @@ const logout = async (params = {}) => {
 export default {
   request,
   authRequest,
+  logout,
   refreshToken,
   login
 }
